@@ -33,7 +33,8 @@ API_KEY="your_api_key_here"       # Your unique API key from GetOTP.co
 
 # Curl command to send OTP via WhatsApp
 curl -X GET "https://getotp.co/api?otp=$OTP&to=$WHATSAPP_NUMBER&key=$API_KEY"
-Support and Contact
+
+# Support and Contact
 
 For any questions or assistance, please contact us at hi@getotp.co. Visit our documentation for more details about integrating and using the Free WhatsApp OTP API.
 

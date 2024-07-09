@@ -27,9 +27,12 @@ You can send OTPs using a GET request with the following parameters:
 
 
 # Replace these variables with your actual values
-OTP="123456"                      # The OTP to be sent
-WHATSAPP_NUMBER="919876543210"    # Recipient's WhatsApp number (include country code)
-API_KEY="your_api_key_here"       # Your unique API key from GetOTP.co
+OTP="123456"
+# The OTP to be sent
+WHATSAPP_NUMBER="919876543210" 
+# Recipient's WhatsApp number (include country code)
+API_KEY="your_api_key_here" 
+# Your unique API key from GetOTP.co
 
 # Curl command to send OTP via WhatsApp
 curl -X GET "https://getotp.co/api?otp=$OTP&to=$WHATSAPP_NUMBER&key=$API_KEY"
